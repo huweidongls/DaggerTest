@@ -2,6 +2,8 @@ package com.a99zan.daggertest;
 
 import android.util.Log;
 
+import javax.inject.Singleton;
+
 import dagger.Module;
 import dagger.Provides;
 import okhttp3.OkHttpClient;

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 import javax.inject.Inject;
+import javax.inject.Singleton;
 
 /**
  * Created by 99zan on 2018/3/30.

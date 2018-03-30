@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     Factory factory;
     @Inject
     OkHttpClient okHttpClient;
+//    @Inject
+//    MoreParame moreParame;
     private Button button;
 
     @Override
@@ -34,11 +36,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        DaggerFactoryActivityComponent.builder().httpModule(new HttpModule(10000))
+        DaggerFactoryActivityComponent.builder()
+                .httpModule(new HttpModule(10000))
                 .build().inject(this);
 
 //        product.toast(this);
         factory.toast(this);
+
+//        moreParame.log();
 
     }
 }
