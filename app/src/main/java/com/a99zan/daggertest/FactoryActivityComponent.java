@@ -6,7 +6,8 @@ import dagger.Component;
  * Created by 99zan on 2018/3/30.
  */
 
-@Component
+@Component(modules = HttpModule.class)
 public interface FactoryActivityComponent {
     void inject(MainActivity activity);
+    void inject(Main2Activity activity);
 }

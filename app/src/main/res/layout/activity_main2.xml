@@ -4,12 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.a99zan.daggertest.MainActivity">
-
-    <Button
-        android:id="@+id/btn"
-        android:text="跳转"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    tools:context="com.a99zan.daggertest.Main2Activity">
 
 </android.support.constraint.ConstraintLayout>
